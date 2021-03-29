@@ -1,5 +1,0 @@
-What proportion of cases have died in China and in the UK ?
-From 55th line to 76th line show the answer.
-The proportion of cases have died in China is  0.03471538588890836.
-The proportion of cases have died in the UK is  0.05279872680870588.
-Compared to China, Britain has a higher death rate.
