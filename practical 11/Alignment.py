@@ -55,7 +55,7 @@ def score(a,x,b,y): #define score(a,x,b,y) to calculate Blosum62 scores
         score+=track1#calculate the alignment score between two sequence
         if pos1==pos2:
             percent+=1
-        percent=percent/len(x)*100
+     percent=percent/len(x)*100
     print('Sequence1 name:',str(a))#print the seq1 name
     print('Sequence1:',x)#print seq1
     print('Sequence2 name:',str(b))
