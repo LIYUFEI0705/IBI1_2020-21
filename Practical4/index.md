@@ -1,6 +1,6 @@
 ## Welcome
 
-I am LiYufei, a student of the University of Edinburgh - Zhejiang University Institute. This is my public github repository. 
+I am LiYufei, a student of the University of Edinburgh - Zhejiang University Institute. This is my github repository. 
 
 
 You can use the [editor on GitHub](https://github.com/LIYUFEI0705/IBI1_2020-21/edit/master/Practical4/index.md) to maintain and preview the content for your website in Markdown files.
