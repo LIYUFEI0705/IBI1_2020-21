@@ -15,7 +15,7 @@ I aslo make the Commit messages for Week 4 are informative change from '145' tp 
 for practical 5, I have stop the loop when finding the first number <=50 and I fixed the erro called 'SyntaxError: EOL while scanning string literal, can be fixed by putting ",n) at the end of the print statement' by using str() to change integers into strings
 for practical 6, I made title for each gragh and dislay frequency table.
 I found I have known better about the git, python and other softwares. I have corrected my code after the feedback.Through this process, I have enchanced my ability to write code.
-
+I also make frequency table for each gragh
 This asssesment is formative and does not form part of your final grade. 
 
 If this was a summative assessment, you would have scored 
