@@ -50,14 +50,17 @@ for i in range(0,number):
     code.append(y) 
     protein_length.append(x)
 #create a new fasta file and write it
-simplify=open('unknown_function1.fa','w')
+filename=str(input('input a file name end with .fa:'))
+simplify=open(filename,'w')
 for i in range(1,2*number+1):
     if i%2==1:
         linei=str(mrnaname[int((i-1)/2)])+str(protein_length[int((i-1)/2)])
         simplify.write(linei)
+        simplify.write('\n')
     else:
         linei=str(code[int(i/2-1)])
         simplify.write(linei)
+        simplify.write('\n')
 simplify.close()
 
     

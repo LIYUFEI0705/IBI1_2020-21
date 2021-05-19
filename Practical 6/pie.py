@@ -14,4 +14,7 @@ plt.show()#show the pie chart
 #we use the example of pie chart from https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html#sphx-glr-gallery-pie-and-polar-charts-pie-features-py
 #and use the data from our practical
 #comment on this task: I have known a lot of settings of the pi chart and the code is easy to run
-
+# make a frequency table
+plt.bar(labels,sizes)
+plt.title('The proportion of COVID-19 infections from 5 countries')
+plt.show()

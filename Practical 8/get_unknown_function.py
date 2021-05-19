@@ -41,10 +41,12 @@ for i in range(0,number):
 simplify=open('unknown_function.fa','w')#make a new file to store the data
 for i in range(1,2*number+1):
     if i%2==1:
-        linei=str(mrnaname[int((i-1)/2)])+str(mrna_length[int((i-1)/2)])
+        linei=str(mrnaname[int((i-1)/2)])+ '  '+str(mrna_length[int((i-1)/2)])
         simplify.write(linei)
+        simplify.write('\n')
     else:
-        linei=str(gene_code[int(i/2-1)])
+        linei=str(gene_code[int(i/2)-1])
         simplify.write(linei)
+        simplify.write('\n')
 simplify.close()
 
