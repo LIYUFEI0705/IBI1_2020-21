@@ -5,9 +5,8 @@ a=np.array(gene_lengths)# use the functions in numpy to create an array
 b=np.array(exon_counts)
 average_exonlengths=a/b
 average_exonlengths.sort()#use sort() to sort data
+print(average_exonlengths)
 import matplotlib.pyplot as plt
-plt.bar(gene_lengths,exon_counts)
-plt.show()
 plt.boxplot(average_exonlengths)
 # use data in average_exonlengths to create a boxplot
 plt.ylabel("average exon lengths")#define the y axis in boxplot
