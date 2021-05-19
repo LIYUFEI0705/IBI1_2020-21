@@ -52,7 +52,7 @@ for i in range(0,number):
 #create a new fasta file and write it
 filename=str(input('input a file name end with .fa:'))
 simplify=open(filename,'w')
-for i in range(1,2*number+1):
+for i in range(1,2*number+1):# write in the new file
     if i%2==1:
         linei=str(mrnaname[int((i-1)/2)])+str(protein_length[int((i-1)/2)])
         simplify.write(linei)
