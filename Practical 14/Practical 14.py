@@ -35,7 +35,7 @@ def count(x):# the function used to see whether the id is related to x and to ca
                 n=count2(dict[ids])
     return n
 
-list=[]
+list=[]# make the list blank before recall the function
 nDNAs=count('DNA')
 print('the number of childnodes of RNA is:',str(nDNAs))
 list=[]
